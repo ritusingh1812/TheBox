@@ -1,0 +1,53 @@
+.projects-box{
+  margin-top: 10%;
+  width: calc(100% - 10% - 10%);
+  height:100vh;
+}
+li{
+  padding: 20px 20px 0px 0px;
+  font-weight: 700;
+  cursor: pointer;
+  
+}
+
+.dot{
+  height: 15px;
+  width: 15px;
+  background-color: #F6F8F7;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+}
+.flex-box{
+  flex-direction: row;
+  justify-content: space-between;
+}
+.lower{
+  justify-content: space-between;
+
+
+}
+.btn-nav{
+  padding: 5px 20px 0px 20px;
+  
+  background-color:#292E3D;
+  color: white;
+  width: 200px;
+  
+  height: 64px;
+}
+@media only screen and (max-width: 768px) {
+  .flex-box{
+    flex-direction: column;
+  }
+  .dot{
+    display: none;
+  }
+  .btn-nav{
+    width:140px;
+    height: 30px;
+    display: hidden;
+    padding:0px;
+  }
+
+}
